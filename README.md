@@ -44,29 +44,37 @@
 
 11. Insert a number. Calculate product and sum of the digits of the number. If product is divisible by the
     sum, print the quotient, otherwise print the remainder.
-        ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t11_quotientRemainder.js)
+    ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t11_quotientRemainder.js)
 12. Given a sentence with missing words and an array of words. Replace all ‘\_ʼ in a sentence with the
-    words from the array. ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t12_huston.js)
+    words from the array.
+    ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t12_huston.js)
 13. Given mixed array of numbers, strings, booleans, nulls and undefined. Filter array and get all the
     numbers in a separate array. Arrange them such as from the beginning are the odds and from the
-    ending the evens. ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t13_arrangeOddsEvens.js)
+    ending the evens.
+
+    ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t13_arrangeOddsEvens.js)
 
 14. Given an array of strings and numbers. Print the number of integers and the number of strings in the
-    array. ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t14_numberOfNumStr.js)
+    array.
+    ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t14_numberOfNumStr.js)
 15. Given an array of strings. Find the strings with maximum and minimum lengths in array. Print the sum
-    of their lengths.  
-     ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t15_stringsMaxMinLength.js)
+    of their lengths.
+
+    ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t15_stringsMaxMinLength.js)
 
 16. Given an array of numbers and a number. Find the index of a first element which is equal to that
-    number. If there is not such a number, that find the index of the first element which is the closest to it. ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t16_closestIndex.js)
+    number. If there is not such a number, that find the index of the first element which is the closest to it.
+    ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t16_closestIndex.js)
 17. Given a sentence as a string. Split it according to space and comma and create an array consisting of
-    the words of the array. The last word should not contain the last . or ! . ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t17%20_splitRemove.js)
+    the words of the array. The last word should not contain the last . or ! .
+
+    ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t17%20_splitRemove.js)
 
 18. Given an array of a size smaller than 100. It consists of numbers from 0 to 99 in any order. Create a
     new array where each element from that array is placed under the index of its value. Start from the
     smallest value and end with the biggest one. If there are missing values, put in its places undefined.
 
-        ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t18_indexValue.js)
+    ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t18_indexValue.js)
 
 19. Given an array consisting from the arrays of numbers (like a two-dimensional array). Find sum of each
     row and print them as an array. ## [Solution](https://github.com/ElenGhazaryann/conditional-operators-loops/blob/main/t19_sumOfRow.js)
