@@ -1,3 +1,4 @@
+"use strict";
 let num = 24;
 
 if (num % 3 === 0 && num % 5 === 1 && num % 7 === 0) {

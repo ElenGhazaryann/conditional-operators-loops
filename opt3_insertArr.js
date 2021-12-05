@@ -1,3 +1,4 @@
+"use strict";
 function my_f(arr1, arr2) {
   let firstNum = arr1.shift();
   let lastNum = arr1.shift();

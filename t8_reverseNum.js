@@ -1,3 +1,4 @@
+"use strict";
 function my_f(num) {
   let arr = num.toString().split("").reverse().join("");
   return arr;

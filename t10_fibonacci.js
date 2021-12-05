@@ -1,3 +1,4 @@
+"use strict";
 function fibonacci(num) {
   if (num === 1 || num === 0) {
     return num;

@@ -1,3 +1,4 @@
+"use strict";
 function my_f(digit, num) {
   return num.toString().includes(digit) ? "Yes" : "No";
 }

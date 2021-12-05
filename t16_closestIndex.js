@@ -1,3 +1,4 @@
+"use strict";
 function my_f(arr, num) {
   //                                                          works for given cases
   for (let i = 0; i < arr.length; i++) {

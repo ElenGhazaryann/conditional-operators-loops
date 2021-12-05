@@ -1,3 +1,4 @@
+"use strict";
 function my_f(sent) {
   let arr = sent.split(" ");
   let newArr = [];

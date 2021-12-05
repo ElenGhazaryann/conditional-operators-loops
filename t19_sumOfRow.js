@@ -1,3 +1,4 @@
+"use strict";
 function my_f(arr) {
   let newArr = [];
   let sum = 0;

@@ -1,3 +1,4 @@
+"use strict";
 function my_f(num) {
   let arr = num.toString().split("");
   let maxNum = Math.max(...arr);

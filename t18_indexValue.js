@@ -1,3 +1,4 @@
+"use strict";
 function my_f(arr) {
   arr.sort((a, b) => a - b);
   let newArr = [];

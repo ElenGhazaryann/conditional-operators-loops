@@ -1,3 +1,4 @@
+"use strict";
 function my_f(arr) {
   let num = [];
   let str = [];
