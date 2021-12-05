@@ -9,4 +9,4 @@ function my_f(arr) {
 
   return odd.concat(even);
 }
-console.log(my_f([8, 8, "meh", 6]));
+console.log(my_f([8, 8, 1, "meh", 6]));
