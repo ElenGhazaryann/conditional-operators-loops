@@ -1,8 +1,18 @@
 "use strict";
-function my_f(a, b, c) {
-  let arr = [];
-  arr.push(a, b, c);
 
-  return arr.sort((a, b) => a - b);
+function ascendingOrder(a, b, c) {
+  if (a < b && b < c) {
+    return `${a} ${b} ${c}`;
+  } else if (a < c && c < b) {
+    return `${a} ${c} ${b}`;
+  } else if (b < a && a < c) {
+    return `${b} ${a} ${c}`;
+  } else if (b < c && c < a) {
+    return `${b} ${c} ${a}`;
+  } else if (c < a && a < b) {
+    return `${c} ${a} ${b}`;
+  } else if (c < a && a < b) {
+    return `${c} ${a} ${b}`;
+  }
 }
-console.log(my_f(-26, -456, 0));
+console.log(ascendingOrder(8, 1, 3));
