@@ -1,5 +1,5 @@
 "use strict";
-function my_f(num) {
+function findQuotient(num) {
   let arr = num.toString().split("");
   let sum = 0;
   let product = 1;
@@ -15,4 +15,4 @@ function my_f(num) {
       : ` Reminder is ${product % sum}`;
   }
 }
-console.log(my_f(455));
+console.log(findQuotient(455));

@@ -1,7 +1,7 @@
 "use strict";
-function my_f(num) {
+function isPrime(num) {
   for (let i = 2; i < num; i++) {
     return num % i === 0 ? "No" : "Yes";
   }
 }
-console.log(my_f(31));
+console.log(isPrime(31));

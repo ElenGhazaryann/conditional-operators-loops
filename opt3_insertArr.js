@@ -1,5 +1,5 @@
 "use strict";
-function my_f(arr1, arr2) {
+function insertArr(arr1, arr2) {
   let firstNum = arr1.shift();
   let lastNum = arr1.shift();
 
@@ -8,4 +8,4 @@ function my_f(arr1, arr2) {
   return arr2;
 }
 
-console.log(my_f([15, 150], [45, 75, 35]));
+console.log(insertArr([15, 150], [45, 75, 35]));

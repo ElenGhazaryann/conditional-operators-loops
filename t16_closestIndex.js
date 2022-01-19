@@ -1,5 +1,5 @@
 "use strict";
-function my_f(arr, num) {
+function findIndex(arr, num) {
   //                                                          works for given cases
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === num) {
@@ -14,10 +14,10 @@ function my_f(arr, num) {
   let minNum = Math.min(...newArr) + num;
   return arr.indexOf(minNum);
 }
-console.log(my_f([21, -9, 15, 2116, -71, 33], -71));
+console.log(findIndex([21, -9, 15, 2116, -71, 33], -71));
 
 /*                                     // Works for all cases
-function my_f(arr, num) {
+function findIndex(arr, num) {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === num) {
       return arr.indexOf(num);

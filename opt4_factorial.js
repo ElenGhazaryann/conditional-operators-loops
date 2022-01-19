@@ -1,10 +1,10 @@
 "use strict";
 function factorial(num) {
-  if (num === 1) {
-    return num;
+  if (num === 1 || num === 0) {
+    return 1;
   } else {
     return num * factorial(num - 1);
   }
 }
 
-console.log(factorial(7));
+console.log(factorial(0));

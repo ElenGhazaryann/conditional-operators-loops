@@ -1,5 +1,5 @@
 "use strict";
-function my_f(sent) {
+function splitBySpace(sent) {
   let arr = sent.split(" ");
   let newArr = [];
   let lastArr = [];
@@ -12,4 +12,4 @@ function my_f(sent) {
   arr.pop();
   return arr.concat(lastArr);
 }
-console.log(my_f("May the Force be with you."));
+console.log(splitBySpace("May the Force be with you."));

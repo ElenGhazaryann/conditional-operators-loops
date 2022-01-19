@@ -1,7 +1,7 @@
 "use strict";
-function my_f(num) {
+function reverseNumber(num) {
   let arr = num.toString().split("").reverse().join("");
   return arr;
 }
 
-console.log(my_f(133));
+console.log(reverseNumber(133));

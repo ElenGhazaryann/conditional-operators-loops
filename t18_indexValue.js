@@ -1,5 +1,5 @@
 "use strict";
-function my_f(arr) {
+function matchByIndexValue(arr) {
   arr.sort((a, b) => a - b);
   let newArr = [];
   for (let i = arr[0]; i < arr[arr.length - 1]; i++) {
@@ -15,4 +15,4 @@ function my_f(arr) {
 
   return newArr;
 }
-console.log(my_f([4, 3, 0, 9]));
+console.log(matchByIndexValue([4, 3, 0, 9]));

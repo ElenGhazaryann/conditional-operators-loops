@@ -1,5 +1,5 @@
 "use strict";
-function my_f(arr) {
+function arrangeOddsEvens(arr) {
   let even = [];
   let odd = [];
   arr.filter(function (val) {
@@ -10,4 +10,4 @@ function my_f(arr) {
 
   return odd.concat(even);
 }
-console.log(my_f([8, 8, 1, "meh", 6]));
+console.log(arrangeOddsEvens([8, 8, 1, "meh", 6]));
